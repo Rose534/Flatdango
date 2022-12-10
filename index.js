@@ -14,6 +14,7 @@ function renderFilm(film) {
 }
 
 
+
 //load in the films from our api
 //iterate through the films
 //display each one in an image tag in the film-menu div
