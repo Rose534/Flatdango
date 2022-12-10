@@ -2,16 +2,10 @@ body {
     background-color: #1d265f;
 }
 
+
 h1 {
-    color: white;
-    
-}
-
-
-h2 {
     font-family: 'Nosifer', cursive;
     color: white;
-    margin-top: -120px;
     position: relative;
     text-align: center;
 
@@ -34,8 +28,18 @@ h3 {
 #film-menu{
     
     cursor: pointer;
-    background-size: 300px;
-    border: 2px solid;
+    display: flex;
+    height: 400px;
+    position: relative;
+    margin-left: 550px;
+    color: white;
     
    
 }
+
+#film-details {
+    color: white;
+    float: right;
+    top: 0;
+}
+

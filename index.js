@@ -1,8 +1,24 @@
+const API = "http://localhost:3000/films/1";
+
+fetch(API)
+.then((res) => res.json())
+.then(renderFilm);
+
+function renderFilm(film) {
+    const filmMenuDiv = document.getElementById("film-menu");
+
+    const filmPoster = document.createElement("img");
+    filmPoster.src = film.poster;
+    filmMenuDiv.append(filmPoster); 
+
+}
+
+
 //load in the films from our api
 //iterate through the films
 //display each one in an image tag in the film-menu div
 
-const API = "http://localhost:3000/films";
+/*const API = "http://localhost:3000/films";
 
 
 fetch(API)
@@ -20,7 +36,7 @@ function renderFilm(film) {
     const filmPoster = document.createElement("img");
     filmPoster.src = film.poster;
     filmMenuDiv.append(filmPoster);
-}
+}*/
 
 
 
