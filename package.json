@@ -1,0 +1,23 @@
+{
+  "name": "flatdango",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch./db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rose534/Flatdango.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rose534/Flatdango/issues"
+  },
+  "homepage": "https://github.com/Rose534/Flatdango#readme",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
+}
