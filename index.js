@@ -33,7 +33,13 @@ function renderFilm(film) {
 
 }
 
-    const button = 
+    const button = document.getElementById("sell");
+    button.addEventListener('click', () => {
+        
+            alert ('Ticket Bought')
+        
+    })
+   
 
 
 //load in the films from our api
