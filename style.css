@@ -76,6 +76,7 @@ h3 {
     font-size: 18px;
 }
 
-#film-div {
-    
+#films {
+    display: flex;
+    height: 100px;
 }
