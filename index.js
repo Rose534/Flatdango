@@ -53,45 +53,24 @@ function renderFilm(film) {
 
 }
 function getFilms(){
-fetch ("http://localhost:3000/films")
-.then((response) => response.json())
-.then((data => {
-    console.log(data);
-
-    let allMovies = data;
-    console.log(allMovies);
-}))
+    fetch("http://localhost:3000/films")
+    .then((response) => response.json())
+    .then(renderFilms);
 }
-
-const titleDiv = document.getElementById("film-item")
-
-let li = document.createElement('ul')
-ul.innerText = allMovies.title
-
-titlelist.appendChild(li)
-
-//load in the films from our api
-//iterate through the films
-//display each one in an image tag in the film-menu div
-
-//const API2 = "http://localhost:3000/films";
-
-
-/*fetch(API2)
-.then((res) => res.json())
-.then(renderFilms);
+getFilms();
 
 function renderFilms(films) {
-    console.log(films)
-  films.forEach(renderFilm)
+    films.forEach(filmDetails);
 }
 
-function renderFilm(film) {
-    const filmDiv = document.getElementById("film-item");
+function filmDetails(details) {
+    const titlesElement = document.getElementById("titles");
 
-    const filmPoster = document.createElement("img");
-    filmPoster.src = film.poster;
-    filmDiv.append(filmPoster);}*/
+    let listElement = document.createElement("li");
+    listElement.innerText = details.title;
+
+    titlesElement.appendChild(listElement);
+}
 
 
 
