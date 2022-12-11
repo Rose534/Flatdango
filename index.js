@@ -33,7 +33,7 @@ function renderFilm(film) {
     filmAvailability.textContent = (film.capacity - film.tickets_sold);
     availableDiv.append(filmAvailability);
      
-    //for the buying on tickets
+    //for the buying of tickets button 
     const button = document.getElementById("sell");
     const btn = parseInt(availableDiv.innerText);
     console.log(btn);
