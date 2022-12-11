@@ -32,15 +32,14 @@ function renderFilm(film) {
     availableDiv.append(filmAvailability);
 
     const button = document.getElementById("sell");
+    const btn = parseInt(availableDiv.innerText);
+    console.log(btn);
     button.addEventListener('click', () => {
-        if (filmAvailability < 1) {
-            alert ('sorry, we are sold out')
-        }
-
-        else {
-            alert ('Ticket sold!')
-        }
-        
+       if (btn >= 1) {
+        availableDiv.innerText = (--availableDiv.innerText)
+       }
+      
+       else if ()
     })
 
 }
