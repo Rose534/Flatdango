@@ -1,9 +1,11 @@
+//declare the json url as an API for easy access.
 const API = "http://localhost:3000/films/1";
 
 fetch(API)
 .then((res) => res.json())
 .then(renderFilm);
 
+//rendering only the one poster and its details.
 function renderFilm(film) {
     const filmMenuDiv = document.getElementById("film-menu");
     const titleDiv = document.getElementById("film-details"); 
