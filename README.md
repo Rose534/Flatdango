@@ -18,7 +18,7 @@ Clone the repo by using the following:
   git@github.com:Rose534/Flatdango.git
 Change directory to the repo folder:
 
-  cd flataculties-app
+  cd flatdango-app
 use code . to open it in visual studio
 
 You can also open it any editor of your choice, if vscode in unavailable.
@@ -30,9 +30,7 @@ You can also open it any editor of your choice, if vscode in unavailable.
 
       npm install -g json-server
 
-- Create a db.json file with some data i.e in our case we are using flatacuties data
-
--  To start json server
+-  To start json server, run - 
 
       json-server --watch db.json
 
@@ -40,9 +38,6 @@ You can also open it any editor of your choice, if vscode in unavailable.
 
       http://localhost:3000/characters
 
- To run the server, be sure to run
-  
-      npm start 
 
  To view the html file in chrome, you can either go live on vscode or navigate to the html file in the directory.
 
