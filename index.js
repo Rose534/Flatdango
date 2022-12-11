@@ -3,7 +3,9 @@ const API = "http://localhost:3000/films/1";
 
 fetch(API)
 .then((res) => res.json())
-.then(renderFilm);
+.then(renderFilm) 
+ //const allMovies = renderFilm;
+
 
 //rendering only the one poster and its details.
 function renderFilm(film) {
@@ -45,17 +47,34 @@ function renderFilm(film) {
       
        if (availableDiv.innerText < 0) {
         availableDiv.innerText = 0;
-        alert ('Sorry, we are currently sold out.')
+        alert ('Sorry, we are currently sold out of tickets for this film.')
        }
     })
 
 }
+function getFilms(){
+fetch ("http://localhost:3000/films")
+.then((response) => response.json())
+.then((data => {
+    console.log(data);
+
+    let allMovies = data;
+    console.log(allMovies);
+}))
+}
+
+const titleDiv = document.getElementById("film-item")
+
+let li = document.createElement('ul')
+ul.innerText = allMovies.title
+
+titlelist.appendChild(li)
 
 //load in the films from our api
 //iterate through the films
 //display each one in an image tag in the film-menu div
 
-const API2 = "http://localhost:3000/films";
+//const API2 = "http://localhost:3000/films";
 
 
 /*fetch(API2)
