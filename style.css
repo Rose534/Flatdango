@@ -80,3 +80,11 @@ h3 {
     display: flex;
     height: 100px;
 }
+
+#sell {
+    text-align: center;
+    margin-left: 620px;
+    position: absolute;
+    padding: 1em ;
+    border: none;
+}
