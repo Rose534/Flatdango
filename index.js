@@ -57,13 +57,14 @@ const API2 = "http://localhost:3000/films";
 
 /*fetch(API2)
 .then((res) => res.json())
-.then(allFilms);
+.then(renderFilms);
 
-function allFilms(films) {
-  films.forEach(allFilms)
+function renderFilms(films) {
+    console.log(films)
+  films.forEach(renderFilm)
 }
 
-function allFilm(film) {
+function renderFilm(film) {
     const filmDiv = document.getElementById("film-item");
 
     const filmPoster = document.createElement("img");
