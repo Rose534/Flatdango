@@ -64,12 +64,12 @@ function renderFilms(films) {
 }
 
 function filmDetails(details) {
-    const titlesElement = document.getElementById("titles");
+    const titlesElement = document.getElementById("film-item");
 
     let listElement = document.createElement("li");
     listElement.innerText = details.title;
 
-    titlesElement.appendChild(listElement);
+    titlesElement.append(listElement);
 }
 
 
