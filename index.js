@@ -31,14 +31,21 @@ function renderFilm(film) {
     filmAvailability.textContent = (film.capacity - film.tickets_sold);
     availableDiv.append(filmAvailability);
 
-}
-
     const button = document.getElementById("sell");
     button.addEventListener('click', () => {
-        
-            alert ('Ticket Bought')
+        if (filmAvailability < 1) {
+            alert ('sorry, we are sold out')
+        }
+
+        else {
+            alert ('Ticket sold!')
+        }
         
     })
+
+}
+
+    
    
 
 
