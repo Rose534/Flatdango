@@ -34,16 +34,14 @@ function renderFilm(film) {
 }
 
 
-
-
 //load in the films from our api
 //iterate through the films
 //display each one in an image tag in the film-menu div
 
-/*const API = "http://localhost:3000/films";
+const API2 = "http://localhost:3000/films";
 
 
-fetch(API)
+/*fetch(API2)
 .then((res) => res.json())
 .then(renderFilms);
 
@@ -53,12 +51,12 @@ function renderFilms(films) {
 }
 
 function renderFilm(film) {
-    const filmMenuDiv = document.getElementById("film-menu");
+    const filmDiv = document.getElementById("film-div");
 
     const filmPoster = document.createElement("img");
     filmPoster.src = film.poster;
-    filmMenuDiv.append(filmPoster);
-}*/
+    filmDiv.append(filmPoster);}*/
+
 
 
 
