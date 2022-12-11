@@ -83,8 +83,10 @@ h3 {
 
 #sell {
     text-align: center;
-    margin-left: 620px;
+    margin-left: 610px;
     position: absolute;
-    padding: 1em ;
+    padding: 16px 32px ;
     border: none;
+    cursor: pointer;
+
 }
