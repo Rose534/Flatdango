@@ -36,10 +36,14 @@ function renderFilm(film) {
     console.log(btn);
     button.addEventListener('click', () => {
        if (btn >= 1) {
-        availableDiv.innerText = (--availableDiv.innerText)
+        availableDiv.innerText = (availableDiv.innerText - 1)
+        
        }
       
-       else if ()
+       if (availableDiv.innerText < 0) {
+        availableDiv.innerText = 0;
+        alert ('Sorry, we are currently sold out.')
+       }
     })
 
 }
