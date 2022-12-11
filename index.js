@@ -48,27 +48,22 @@ function renderFilm(film) {
 
 }
 
-    
-   
-
-
 //load in the films from our api
 //iterate through the films
 //display each one in an image tag in the film-menu div
 
-//const API2 = "http://localhost:3000/films";
+const API2 = "http://localhost:3000/films";
 
 
 /*fetch(API2)
 .then((res) => res.json())
-.then(renderFilms);
+.then(allFilms);
 
-function renderFilms(films) {
-    console.log(films)
-  films.forEach(renderFilm)
+function allFilms(films) {
+  films.forEach(allFilms)
 }
 
-function renderFilm(film) {
+function allFilm(film) {
     const filmDiv = document.getElementById("film-item");
 
     const filmPoster = document.createElement("img");
