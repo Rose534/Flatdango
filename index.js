@@ -33,12 +33,14 @@ function renderFilm(film) {
 
 }
 
+    const button = 
+
 
 //load in the films from our api
 //iterate through the films
 //display each one in an image tag in the film-menu div
 
-const API2 = "http://localhost:3000/films";
+//const API2 = "http://localhost:3000/films";
 
 
 /*fetch(API2)
@@ -51,7 +53,7 @@ function renderFilms(films) {
 }
 
 function renderFilm(film) {
-    const filmDiv = document.getElementById("film-div");
+    const filmDiv = document.getElementById("film-item");
 
     const filmPoster = document.createElement("img");
     filmPoster.src = film.poster;
