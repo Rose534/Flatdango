@@ -23,7 +23,7 @@ Change directory to the repo folder:
 
 use code . to open it in visual studio
 
-You can also open it any editor of your choice, if vscode in unavailable.
+You can also open it in any editor of your choice, if vscode in unavailable.
 
 # Running the application
 
@@ -33,11 +33,12 @@ You can also open it any editor of your choice, if vscode in unavailable.
       npm install -g json-server
 
 -  To start json server run - 
+         
+         
+         json-server --watch db.json
 
-      json-server --watch db.json
 
-
-- To ensure you have the json server installed run - 
+- To ensure you have the json server installed run , you should be able to see the json list once you run it - 
 
       http://localhost:3000/characters
 
