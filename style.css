@@ -45,17 +45,21 @@ h3 {
 
 #title {
     text-align: center;
+    font-family: 'Zen Dots', cursive;
 }
 
 #run {
     text-align: center;
+    font-family: 'Zen Dots', cursive;
 }
 #show {
     text-align: center;
+    font-family: 'Zen Dots', cursive;
 }
 
 #available {
     text-align: center;
+    font-family: 'Zen Dots', cursive;
 }
 
 #runtime {
@@ -83,11 +87,12 @@ h3 {
 
 #sell {
     text-align: center;
-    margin-left: 613px;
+    margin-left: 605px;
     position: relative;
     padding: 16px 22px ;
     border: none;
     cursor: pointer;
+    font-family: 'Zen Dots', cursive;
     
 
 }
