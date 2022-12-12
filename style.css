@@ -40,7 +40,7 @@ h3 {
 #film-details {
     color: white;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 #title {
@@ -65,19 +65,19 @@ h3 {
 #runtime {
     text-align: center;
     color: white;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 #showtime {
     text-align: center;
     color: white;
-    font-size: 18px
+    font-size: 20px
 }
 
 #Available-tickets {
     text-align: center;
     color: white;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 #films {
