@@ -52,6 +52,7 @@ function renderFilm(film) {
     })
 
 }
+//a second fetch request to get the movie list.
 function getFilms(){
     fetch("http://localhost:3000/films")
     .then((response) => response.json())
