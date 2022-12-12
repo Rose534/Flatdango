@@ -34,8 +34,8 @@ You can also open it any editor of your choice, if vscode in unavailable.
 
       json-server --watch db.json
 
-- 
-To ensure you have the json server installed run - 
+
+- To ensure you have the json server installed run - 
 
       http://localhost:3000/characters
 
