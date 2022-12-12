@@ -15,10 +15,12 @@ Open a terminal / command line interface on your computer
 
 Clone the repo by using the following:
 
-  git@github.com:Rose534/Flatdango.git
+       git@github.com:Rose534/Flatdango.git
+
 Change directory to the repo folder:
 
-  cd flatdango-app
+        cd flatdango-app
+
 use code . to open it in visual studio
 
 You can also open it any editor of your choice, if vscode in unavailable.
