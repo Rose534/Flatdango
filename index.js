@@ -53,6 +53,8 @@ function renderFilm(film) {
        if (availableDiv.innerHTML <= 0) {
         button.innerHTML = 'SOLD OUT'
        }
+
+    
     })
 
 }
@@ -75,7 +77,13 @@ function filmDetails(details) {
     listElement.innerText = details.title;
 
     titlesElement.append(listElement);
+    
 }
+
+
+
+
+
 
 
 
