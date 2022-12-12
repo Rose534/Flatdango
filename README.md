@@ -35,7 +35,7 @@ You can also open it in any editor of your choice, if vscode in unavailable.
 -  To start json server run - 
          
          
-         json-server --watch db.json
+      json-server --watch db.json
 
 
 - To ensure you have the json server installed run , you should be able to see the json list once you run it - 
