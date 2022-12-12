@@ -46,8 +46,12 @@ function renderFilm(film) {
        }
       
        if (availableDiv.innerText < 0) {
-        availableDiv.innerText = 'SOLD OUT';
+        availableDiv.innerText = '0';
         alert ('Sorry, we are currently sold out of tickets for this film.')
+       }
+
+       if (availableDiv.innerHTML <= 0) {
+        button.innerHTML = 'SOLD OUT'
        }
     })
 
