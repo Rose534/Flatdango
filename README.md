@@ -40,7 +40,6 @@ You can also open it any editor of your choice, if vscode in unavailable.
       http://localhost:3000/characters
 
 
- To view the html file in chrome, you can either go live on vscode or navigate to the html file in the directory.
 
  # To view the published HTML as a website -
 
