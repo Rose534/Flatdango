@@ -93,7 +93,11 @@ h3 {
 }
 
 #film-item{
-    
+    color: white;
     float: left;
-    
+    font-size: 20px;
+}
+
+#film {
+    table
 }
