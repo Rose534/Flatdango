@@ -30,18 +30,19 @@ You can also open it any editor of your choice, if vscode in unavailable.
 
       npm install -g json-server
 
--  To start json server, run - 
+-  To start json server run - 
 
       json-server --watch db.json
 
-- To ensure you have the json server installed run - 
+- 
+To ensure you have the json server installed run - 
 
       http://localhost:3000/characters
 
 
  To view the html file in chrome, you can either go live on vscode or navigate to the html file in the directory.
 
- # To view the published HTML as a website in Git -
+ # To view the published HTML as a website -
 
 To view this website, copy and paste this link onto your browser. 
 
