@@ -91,6 +91,18 @@ h3 {
     
 
 }
+#film {
+    height: 100%; 
+    width: 300px; 
+    position: fixed; 
+    z-index: 1;
+    top: 0; 
+    left: 0;
+    background-color: #0e2142; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+    float: left;
+}
 
 #film-item{
     color: white;
@@ -98,6 +110,3 @@ h3 {
     font-size: 20px;
 }
 
-#film {
-    table
-}
