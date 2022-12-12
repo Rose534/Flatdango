@@ -41,6 +41,13 @@ You can also open it any editor of your choice, if vscode in unavailable.
 
  To view the html file in chrome, you can either go live on vscode or navigate to the html file in the directory.
 
+ # To view the published HTML as a website in Git -
+
+To view this website, copy and paste this link onto your browser. 
+
+      https://rose534.github.io/Flatdango/
+
+
 # Authors
 This project was contributed to by:
     -Rose Kiragu
