@@ -1,3 +1,4 @@
+const filmTime = document.getElementById('film-item')
 //declare the json url as an API for easy access.
 const API = "http://localhost:3000/films/1";
 
@@ -15,9 +16,7 @@ function renderFilm(film) {
     const showDiv = document.getElementById("showtime")
     const availableDiv = document.getElementById("Available-tickets")
 
-    const filmPoster = document.createElement("img");
-    filmPoster.src = film.poster;
-    filmMenuDiv.append(filmPoster); 
+    filmMenuDiv.src = film.poster;
 
     const filmTitle = document.createElement("p");
     filmTitle.textContent = film.title;
@@ -75,16 +74,20 @@ function filmDetails(details) {
 
     let listElement = document.createElement("li");
     listElement.innerText = details.title;
+    
+    let imgElement = document.createElement("film-details");
+    imgElement.src = details.poster;
+
+  const moviePoster = document.getElementById('film-menu')
 
     titlesElement.append(listElement);
-    
+    listElement.addEventListener('click', () => {
+        console.log(details.title)
+        document.getElementById('film-details').innerText = details.title
+        document.getElementById('runtime').innerText = details.runtime
+        document.getElementById('showtime').innerText = details.showtime
+        document.getElementById('Available-tickets').innerText = details.capacity - details.tickets_sold
+        moviePoster.src = details.poster
+    })
 }
-
-
-
-
-
-
-
-
 
