@@ -46,7 +46,7 @@ You can also open it in any editor of your choice, if vscode in unavailable.
 
  # To view the published HTML as a website -
 
-To view this website, copy and paste this link onto your browser. 
+To view this website, copy and paste this link onto your browser, make sure you are running he json server. 
 
       https://rose534.github.io/Flatdango/
 
