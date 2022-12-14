@@ -50,7 +50,7 @@ function renderFilm(film) {
        }
 
        if (availableDiv.innerHTML <= 0) {
-        button.innerHTML = 'SOLD OUT'
+        button.innerHTML = '0'
        }
 
     
