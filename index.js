@@ -59,13 +59,13 @@ function renderFilm(film) {
 }
 //a second fetch request to get the movie list.
 function getFilms(){
-    fetch("http://localhost:3000/films")
+    fetch("https://flatdango-mu.vercel.app/db.json")
     .then((response) => response.json())
     .then(renderFilms);
 }
 getFilms();
 
-function renderFilms(films) {
+function renderFilms(films.films) {
     films.forEach(filmDetails);
 }
 
