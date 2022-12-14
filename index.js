@@ -74,6 +74,7 @@ function filmDetails(details) {
 
     let listElement = document.createElement("li");
     listElement.innerText = details.title;
+    listElement.className = 'film-item'
     
     let imgElement = document.createElement("film-details");
     imgElement.src = details.poster;
