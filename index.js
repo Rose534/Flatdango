@@ -65,8 +65,8 @@ function getFilms(){
 }
 getFilms();
 
-function renderFilms(films.films) {
-    films.forEach(filmDetails);
+function renderFilms(films) {
+    films.films.forEach(filmDetails);
 }
 
 function filmDetails(details) {
