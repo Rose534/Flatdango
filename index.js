@@ -49,9 +49,9 @@ function renderFilm(film) {
         alert ('Sorry, we are currently sold out of tickets for this film.')
        }
 
-       if (availableDiv.innerHTML <= 0) {
-        button.innerHTML = '0'
-       }
+       /*if (availableDiv.innerHTML <= 0) {
+        button.innerHTML = 'SOLD OUT'
+       }*/
 
     
     })
